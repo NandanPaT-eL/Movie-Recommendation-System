@@ -13,9 +13,6 @@ A smart and interactive movie recommendation system that suggests movies based o
   - [Collaborative Filtering](#2-collaborative-filtering)
 - [How to Run](#how-to-run)
 - [Interface Demo](#interface-demo)
-- [Project Structure](#project-structure)
-- [Future Work](#future-work)
-- [License](#license)
 
 ---
 
