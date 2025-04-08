@@ -47,7 +47,7 @@ This project is a hybrid movie recommendation system built with Python. It lever
 - Cosine similarity is calculated between movie vectors created from combined features.
 - Suggests similar movies to the one a user likes.
 
-> Implemented in: `/Content based/content_model.ipynb`
+> Implemented in: `/Content based`
 
 ### 2. Collaborative Filtering
 
@@ -55,7 +55,7 @@ This project is a hybrid movie recommendation system built with Python. It lever
 - Matrix factorization using the **SVD algorithm** from the `Surprise` library.
 - Recommends movies based on similar users' preferences.
 
-> Implemented in: `/Colaborative Filtering/collaborative_filtering.ipynb`
+> Implemented in: `/Colaborative Filtering`
 
 ---
 
@@ -73,3 +73,14 @@ cd Movie-Recommendation-System
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3. Run the Streamlit file
+
+```bash
+cd interface
+python main.py
+```
+
+## Interface Demo
+
+![GUI Screenshot](demo.png)
