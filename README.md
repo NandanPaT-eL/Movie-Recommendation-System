@@ -31,7 +31,7 @@ This project is a hybrid movie recommendation system built with Python. It lever
 - **Python 3.x**
 - **Pandas**, **NumPy**, **scikit-learn**
 - **Surprise** (for collaborative filtering)
-- **Tkinter** (for GUI)
+- **Streamlit** (for GUI)
 - **Jupyter Notebooks** (for development and prototyping)
 
 ---
