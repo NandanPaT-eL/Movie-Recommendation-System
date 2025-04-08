@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ### 3. Run the Streamlit file
 
 ```bash
-cd interface
+cd src
 python main.py
 ```
 

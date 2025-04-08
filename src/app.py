@@ -14,13 +14,13 @@ def fetch_poster(movie_id):
         return ""
 
 def load_collab_data():
-    with open('/Users/nandanpatel/Projects/Movie Recomendation System/Colaborative Filtering/dataset/movies.pkl', 'rb') as f:
+    with open('/Colaborative Filtering/models/movies.pkl', 'rb') as f:
         movies = pickle.load(f)
-    with open('/Users/nandanpatel/Projects/Movie Recomendation System/Colaborative Filtering/dataset/final.pkl', 'rb') as f:
+    with open('/Colaborative Filtering/models/final.pkl', 'rb') as f:
         final = pickle.load(f)
-    with open('/Users/nandanpatel/Projects/Movie Recomendation System/Colaborative Filtering/dataset/csr_data.pkl', 'rb') as f:
+    with open('/Colaborative Filtering/models/csr_data.pkl', 'rb') as f:
         csr_data = pickle.load(f)
-    with open('/Users/nandanpatel/Projects/Movie Recomendation System/Colaborative Filtering/dataset/knn_model.pkl', 'rb') as f:
+    with open('/Colaborative Filtering/models/knn_model.pkl', 'rb') as f:
         knn = pickle.load(f)
     links = pd.read_csv('/Users/nandanpatel/Projects/Movie Recomendation System/Colaborative Filtering/dataset/links.csv')
     return movies, final, csr_data, knn, links
@@ -52,7 +52,7 @@ def get_recommendation_collaborative(movie_name, movies, final, csr_data, knn, l
         return []
 
 def load_content_data():
-    movies_df = pickle.load(open('/Users/nandanpatel/Projects/Movie Recomendation System/Content based/dataset/movies.pkl', 'rb'))
+    movies_df = pickle.load(open('/Content based/models/movies.pkl', 'rb'))
     similarity = pickle.load(open('/Users/nandanpatel/Projects/Movie Recomendation System/Content based/dataset/similarity.pkl', 'rb'))
     return pd.DataFrame(movies_df), similarity
 

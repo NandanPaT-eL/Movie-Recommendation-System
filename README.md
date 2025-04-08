@@ -74,7 +74,7 @@ pip install -r requirements.txt
 ### 3. Run the script
 
 ```bash
-python interface/app.py
+python src/app.py
 ```
 
 ## Interface Demo
