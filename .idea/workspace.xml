@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1faae6f-8a15-4032-8847-621be86ecb7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colaborative Filtering/notebooks/.ipynb_checkpoints/preprocessing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Colaborative Filtering/notebooks/.ipynb_checkpoints/preprocessing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colaborative Filtering/notebooks/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Colaborative Filtering/notebooks/preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="b1faae6f-8a15-4032-8847-621be86ecb7d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,8 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Colaborative Filtering/dataset" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Colaborative Filtering/interface" />
     </key>
   </component>
